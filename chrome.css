@@ -1,0 +1,36 @@
+/* by default there is some margin and padding in body of chrome */
+body{ 
+    margin: 0px;
+    padding: 10px;
+    min-width: 400px;
+}
+input{
+    /* width = 100% + 5px + 5px(to remove extra width bordersizing = bordebox */
+    border: 3px solid rgb(103, 218, 103);
+    width: 100%;
+   padding: 10px 10px;
+}
+button{
+    border: 0px;
+    background-color: rgb(151, 228, 151);
+    margin-top: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+ul  {
+    
+    padding-left: 0px;
+
+}
+
+li{
+    
+        list-style: none;
+}
+
+a{
+    
+    color: green;
+}
